@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponent } from "./components/landing-page/landing-page.component";
 
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, LandingPageComponent],
